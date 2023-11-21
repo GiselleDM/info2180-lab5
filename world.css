@@ -1,19 +1,18 @@
-/* Style for header */
+
 header {
-  background-color: #0074D9; /* Blue background color */
-  color: white; /* White text color */
+  background-color: #0074D9; 
+  color: white; 
   text-align: center;
   padding: 20px 0;
   margin-bottom: 20px;
 }
 
-/* Style for main content */
 main {
-  background-color: #AFEEEE; /* Pale blue background color */
+  background-color: #AFEEEE; 
   padding: 20px;
 }
 
-/* Style for lookup bar and buttons */
+
 #controls {
   margin-bottom: 20px;
 }
@@ -29,25 +28,24 @@ main {
   cursor: pointer;
 }
 
-/* Style for the table */
+
 table {
   width: 100%;
   border-collapse: collapse;
 }
 
 th {
-  background-color: #0074D9; /* Blue background color */
-  color: white; /* White text color */
+  background-color: #0074D9; 
+  color: white; 
   padding: 10px;
   text-align: left;
 }
 
 tr:nth-child(odd) {
-  background-color: #ADD8E6; /* Light blue alternate row color */
-}
+  background-color: #ADD8E6; 
 
 tr:nth-child(even) {
-  background-color: #FFFFFF; /* White alternate row color */
+  background-color: #FFFFFF; 
 }
 
 td {
