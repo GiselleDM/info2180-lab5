@@ -1,1 +1,55 @@
-/* Add your own styles */
+/* Style for header */
+header {
+  background-color: #0074D9; /* Blue background color */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* Style for main content */
+main {
+  background-color: #AFEEEE; /* Pale blue background color */
+  padding: 20px;
+}
+
+/* Style for lookup bar and buttons */
+#controls {
+  margin-bottom: 20px;
+}
+
+#country {
+  width: 200px;
+  padding: 8px;
+}
+
+#lookup {
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0074D9; /* Blue background color */
+  color: white; /* White text color */
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #ADD8E6; /* Light blue alternate row color */
+}
+
+tr:nth-child(even) {
+  background-color: #FFFFFF; /* White alternate row color */
+}
+
+td {
+  padding: 8px;
+}
